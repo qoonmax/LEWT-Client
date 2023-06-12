@@ -12,6 +12,7 @@
 		6AA7F4152A37A23E0090904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7F4142A37A23E0090904F /* Assets.xcassets */; };
 		6AA7F4182A37A23E0090904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7F4162A37A23E0090904F /* Main.storyboard */; };
 		6AA7F41A2A37A23E0090904F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7F4192A37A23E0090904F /* main.m */; };
+		6AA7F4242A37A4670090904F /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA7F4232A37A4670090904F /* DFRFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		6AA7F4172A37A23E0090904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AA7F4192A37A23E0090904F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AA7F41B2A37A23E0090904F /* LEWT_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LEWT_Client.entitlements; sourceTree = "<group>"; };
+		6AA7F4212A37A27E0090904F /* TouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
+		6AA7F4232A37A4670090904F /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA7F4242A37A4670090904F /* DFRFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				6AA7F40D2A37A23C0090904F /* LEWT Client */,
 				6AA7F40C2A37A23C0090904F /* Products */,
+				6AA7F4222A37A4670090904F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		6AA7F40D2A37A23C0090904F /* LEWT Client */ = {
 			isa = PBXGroup;
 			children = (
+				6AA7F4212A37A27E0090904F /* TouchBar.h */,
 				6AA7F40E2A37A23C0090904F /* AppDelegate.h */,
 				6AA7F40F2A37A23C0090904F /* AppDelegate.m */,
 				6AA7F4112A37A23C0090904F /* ViewController.h */,
@@ -66,6 +72,14 @@
 				6AA7F41B2A37A23E0090904F /* LEWT_Client.entitlements */,
 			);
 			path = "LEWT Client";
+			sourceTree = "<group>";
+		};
+		6AA7F4222A37A4670090904F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA7F4232A37A4670090904F /* DFRFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "LEWT Client/LEWT_Client.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -281,6 +296,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -289,6 +305,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qoonmax.LEWT-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Debug;
 		};
@@ -297,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "LEWT Client/LEWT_Client.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -307,6 +328,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -315,6 +337,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qoonmax.LEWT-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Release;
 		};
