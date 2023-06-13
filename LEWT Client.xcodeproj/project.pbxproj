@@ -14,7 +14,6 @@
 		6AA7F41A2A37A23E0090904F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7F4192A37A23E0090904F /* main.m */; };
 		6AA7F4242A37A4670090904F /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA7F4232A37A4670090904F /* DFRFoundation.framework */; };
 		6AA7F42C2A37E5780090904F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7F42B2A37E5780090904F /* README.md */; };
-		6AA7F42E2A37E5F90090904F /* LEWT_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7F42D2A37E5F80090904F /* LEWT_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		6AA7F4212A37A27E0090904F /* TouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
 		6AA7F4232A37A4670090904F /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 		6AA7F42B2A37E5780090904F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6AA7F42D2A37E5F80090904F /* LEWT_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LEWT_icon.png; path = ../../../Desktop/LEWT_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				6AA7F40F2A37A23C0090904F /* AppDelegate.m */,
 				6AA7F4112A37A23C0090904F /* ViewController.h */,
 				6AA7F4122A37A23C0090904F /* ViewController.m */,
-				6AA7F42D2A37E5F80090904F /* LEWT_icon.png */,
 				6AA7F4142A37A23E0090904F /* Assets.xcassets */,
 				6AA7F4162A37A23E0090904F /* Main.storyboard */,
 				6AA7F4192A37A23E0090904F /* main.m */,
@@ -145,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA7F42E2A37E5F90090904F /* LEWT_icon.png in Resources */,
 				6AA7F42C2A37E5780090904F /* README.md in Resources */,
 				6AA7F4152A37A23E0090904F /* Assets.xcassets in Resources */,
 				6AA7F4182A37A23E0090904F /* Main.storyboard in Resources */,

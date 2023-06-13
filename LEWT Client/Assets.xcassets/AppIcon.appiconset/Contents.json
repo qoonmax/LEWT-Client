@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "LEWT_icon 9.png",
+      "filename" : "LEWT_icon_16.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "LEWT_icon 8.png",
+      "filename" : "LEWT_icon_32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "LEWT_icon 7.png",
+      "filename" : "LEWT_icon_32 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "LEWT_icon 6.png",
+      "filename" : "LEWT_icon_64.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "LEWT_icon 5.png",
+      "filename" : "LEWT_icon_128.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "LEWT_icon 4.png",
+      "filename" : "LEWT_icon_256.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "LEWT_icon 2.png",
+      "filename" : "LEWT_icon_256 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "LEWT_icon 3.png",
+      "filename" : "LEWT_icon_512.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "LEWT_icon 1.png",
+      "filename" : "LEWT_icon_512 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "LEWT_icon.png",
+      "filename" : "LEWT_icon_1024.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
