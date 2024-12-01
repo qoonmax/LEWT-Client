@@ -9,6 +9,8 @@
 TODO:
 - [ ] Избавиться от бэкенда полностью, перенести всю логику сюда. Или заменить polling на WS.
 
+### Превью
+
 <img src="https://github.com/qoonmax/LEWT-Client/blob/main/show_2.gif" width="auto">
 
 <img src="https://github.com/qoonmax/LEWT-Client/blob/main/show.gif" width="auto">
